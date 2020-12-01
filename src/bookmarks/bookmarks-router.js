@@ -69,6 +69,22 @@ bookmarksRouter
 
 bookmarksRouter
   .route('/:id')
+  .get((req, res) => {
+    const { id } = req.params;
+
+    const index = bookmarks.findIndex(c => c.id === id);
+
+    if (index === -1) {
+      logger.error(`Bookmark with id ${id} not found.`);
+      return res
+        .status(404)
+        .send('Not found');
+    }
+
+    res
+      .status(200)
+      .json(bookmarks[index]);
+  })
   .delete((req, res) => {
     const { id } = req.params;
 

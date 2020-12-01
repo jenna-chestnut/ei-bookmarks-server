@@ -9,11 +9,7 @@ Complete the following steps to set up your server:
 2. `cd` into the cloned repository
 3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
 4. Install the node dependencies `npm install`
-5. Set the appropriate content for your config.js file for app to run properly:
-`export default {
-  API_ENDPOINT: `http://localhost:8000/bookmarks`,
-  API_KEY: '1f761d9a-0d19-46a7-8d24-dc39d213f164'
-}`
+5. Set the appropriate content for your .env file for the server to pass authentication (create your own custom API token)
 
 ---
 
