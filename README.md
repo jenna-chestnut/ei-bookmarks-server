@@ -1,6 +1,9 @@
 # BOOKMARKS SERVER
 ---
 
+### Bookmarks server created for use with client side app here:
+https://github.com/Thinkful-Ed/bookmarks-app
+
 ## Set up
 
 Complete the following steps to set up your server:
