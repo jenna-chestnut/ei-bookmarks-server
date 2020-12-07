@@ -1,6 +1,5 @@
 const store = [
   {
-    id: 'x56w',
     title: 'Salem\'s Portfolio',
     rating: 5,
     url: 'https://www.instagram.com/sweetsaybae/?hl=en',
