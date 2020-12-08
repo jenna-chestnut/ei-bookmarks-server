@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "node": "12.19.0"
+ },
   "scripts": {
     "test": "mocha --require test/setup.js",
     "watch": "npm t -- --watch",
