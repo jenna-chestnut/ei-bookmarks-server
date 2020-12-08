@@ -27,10 +27,10 @@
     "pg": "^7.0.0",
     "uuid": "^8.3.1",
     "winston": "^3.3.3",
-    "xss": "^1.0.8"
+    "xss": "^1.0.8",
+    "postgrator-cli": "^3.2.0"
   },
   "devDependencies": {
-    "postgrator-cli": "^3.2.0",
     "chai": "^4.2.0",
     "mocha": "^8.2.1",
     "nodemon": "^2.0.6",
